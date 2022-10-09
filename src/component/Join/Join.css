@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Pro&family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Pro&display=swap');
+.mail-name
+{
+    color: black;
+}
+.mail-content
+{
+    color: black;
+    
+}
+.MuiTypography-root
+{
+    font-size: larger !important;
+    font-weight: 900 !important;
+    font-family: "Alata",sans-serif !important; 
+   
+    
+}
+.MuiDialog-paper
+{
+    height: 50vh;
+    width: 40%;
+     border:5px solid orangered !important;
+    text-align: center !important;
+    background-color:grey !important;
+    border-radius :25px !important;
+} 
+.mail-name-text
+{
+    width: 50%;
+    height: 4vh;
+    font-size: 20px;
+    font-weight: 500;
+    color: black !important;
+    border: 2px solid black !important;
+    border-radius: 10px;
+}
+.mail-content-text
+{
+    width: 75%;
+    height: 15vh;
+    font-size: 15px;
+    color: black !important;
+    border: 2px solid black !important;
+    border-radius: 10px;
+}
+.mail-content-text:hover
+{
+    border:3px solid blue !important;
+    border-radius: 10px;
+}
+.mail-name-text:hover
+{
+    border: 3px solid blue !important;
+    border-radius: 10px;
+}
+.mail-button-send
+{
+    color: green;
+    padding: 7px 25px;
+    border: 2px solid green;
+    border-radius: 15px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+
+} 
+.mail-button-cancel
+{
+    color: red;
+    padding: 7px 25px;
+    border: 2px solid red;
+    border-radius: 15px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.mail-button-send:hover
+{
+    border: 2px solid blue;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    font-weight: 900;
+}
+.mail-button-cancel:hover
+{
+    border:2px solid blue;
+    border-radius: 15px;
+    background-color:red;
+    color: white;
+    font-weight: 900;
+}
+

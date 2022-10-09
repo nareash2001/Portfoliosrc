@@ -1,0 +1,9 @@
+.topcontainer
+{
+    background: url('../../me.jpeg');
+    height: 100vh;
+    background-position: center;
+    background-size:contain;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+
+}

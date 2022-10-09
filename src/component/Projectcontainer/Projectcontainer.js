@@ -12,8 +12,8 @@ const Projectcontainer = () => {
       
         {
              imag:img1,
-            title:"Orangic Portal",
-            desc:"This website allows you to buy the orangic product and see the description about the particular product.",
+            title:"Organic Portal",
+            desc:"This website allows you to buy the organic products and see the description about the particular product.",
             link:"https://nareash2001.github.io/ulavan-organic/index.html"
         },
         {   
@@ -39,7 +39,7 @@ const Projectcontainer = () => {
     <Element className='projectcontainer' id='project'>
         <h1>Projects</h1>
         <p>
-            Here are some Projects which I done for making lives of people esay.
+            Here are some Projects which I done for making lives of people easy.
         </p>
         <div className='projectcontainer-projects'>
 {
